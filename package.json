@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test:node": "node --test ./nodejs/",
-    "test:node-only": "node --test-only ./nodejs/",
+    "test:vitest": "vitest run --dir ./vitest",
+    "test:jest": "NODE_OPTIONS=--experimental-vm-modules jest",
     "lint": "eslint .",
     "fmt": "prettier -w **/*.{js,json}"
   },

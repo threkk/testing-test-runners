@@ -12,14 +12,12 @@ test('sub tests', async (t) => {
   })
 })
 
-test('this will always run', { only: true }, () => {
-  expect(true).to.be.a('boolean')
-})
-
 test('skip', (t) => {
   t.skip('this test will be skipped')
+  expect(true).eq(false)
 })
 
 test('todo', (t) => {
   t.todo('this test is a todo')
+  expect(true).eq(false)
 })
