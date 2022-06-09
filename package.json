@@ -4,9 +4,10 @@
   "description": "I tested the new Node.js test runner so you don't have to",
   "type": "module",
   "scripts": {
-    "test:node": "node --test ./nodejs/",
-    "test:vitest": "vitest run --dir ./vitest",
     "test:jest": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:mocha": "mocha ./mocha",
+    "test:nodejs": "node --test ./nodejs/",
+    "test:vitest": "vitest run --dir ./vitest",
     "lint": "eslint .",
     "fmt": "prettier -w **/*.{js,json}"
   },
