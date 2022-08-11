@@ -1,5 +1,5 @@
 # Node.js test runners comparison
-> Read the article at <TBD>
+> Read the [full article](https://threkk.medium.com/i-tested-the-node-js-test-runner-so-you-dont-have-to-958b11db46ef)!
 
 ## Getting started
 The purpose of this repository is to dig in the code to see the differences between the different versions. However, if you want to run it:
